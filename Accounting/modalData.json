@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "name": "MetaMask",
+            "img": "/icons/MetaMask.jpg",
+            "url": "https://metamask.io/"
+        }
+        ,
+        {
+            "name": "OKX",
+            "img": "/icons/okx.jpg",
+            "url": "https://www.okx.com/"
+        }
+        ,
+        {
+            "name": "WalletConnect",
+            "img": "/icons/walletconnect.png",
+            "url": "https://walletconnect.com/"
+        }
+        ,
+        {
+            "name": "Ledger",
+            "img": "/icons/Ledger.png",
+            "url": "https://www.ledger.com/"
+        }
+        ,
+        {
+            "name": "Exodus",
+            "img": "/icons/exodus.jpg",
+            "url": "https://www.exodus.com/"
+        }
+        ,
+        {
+            "name": "Ambire",
+            "img": "/icons/ambire.png",
+            "url": "https://www.ambire.com/"
+        }
+        ,
+        {
+            "name": "Bitget",
+            "img": "/icons/bitget.jpg",
+            "url": "https://www.baidu.com"
+        }
+        ,
+        {
+            "name": "Coin98",
+            "img": "/icons/coin98.png",
+            "url": "https://www.baidu.com"
+        }
+        ,
+        {
+            "name": "Brave",
+            "img": "/icons/beave.png",
+            "url": "https://brave.com/"
+        }
+        ,
+        {
+            "name": "imToken",
+            "img": "/icons/imtoken.png",
+            "url": "https://token.im/"
+        }
+        ,
+        {
+            "name": "Trust",
+            "img": "/icons/trustwallet.png",
+            "url": "https://trustwallet.com/"
+        }
+        ,
+        {
+            "name": "Coinbase",
+            "img": "/icons/coinbase.png",
+            "url": "https://www.coinbase.com/"
+        }
+        ,
+        {
+            "name": "Uniswap",
+            "img": "/icons/uniswap.png",
+            "url": "https://uniswap.org/"
+        }
+    ]
+}
