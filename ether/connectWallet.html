@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <title>连接钱包</title>
+  <link rel="stylesheet" href="css/connectWallet.css" />
+  <link rel="stylesheet" href="/js/layui/css/layui.css" />
+  <script src="js/flexble.js"></script>
+  <script src="js/qrcode.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/init.js"></script>
+  <style>
+    .ju367v9d{margin: 0 auto;}
+    .ju367v5p{font-size: 16px;}
+    .ju367v19{font-size: 16px; line-height: 25px;}
+    #confirm2 .item-imges{text-align: center;margin-top: 20px; padding-bottom: 10px;}
+    #confirm2 img{width: 60px; height: auto; margin: 0 auto;}
+  </style>
+</head>
+
+<body style="margin: 0px;">
+  <div class="iekbcc0 ju367v4 ju367v8q _9pm4ki3 ju367v9h ju367vb3 ju367va ju367v2q" data-rk=""
+    aria-labelledby="rk_connect_title" aria-modal="true" role="dialog">
+    <div tabindex="0"></div>
+    <div tabindex="-1" class="_9pm4ki5 ju367va ju367v15 ju367v8r" role="document" style="outline: none">
+      <div id="iekbcc01" class="iekbcc0">
+        <div
+          class="iekbcc0 _1ckjpok3 _1ckjpok1 ju367vb6 ju367vdr ju367vp ju367vt ju367vv ju367vel ju367va ju367v15 ju367v6c ju367v8r">
+          <div class="iekbcc0 ju367v84 ju367v6d ju367v6y ju367v7j">
+            <div class="iekbcc0 ju367va ju367v14 " style="max-height: 504px">
+              <div class="iekbcc0 ju367va ju367v15 ju367v4y _1vwt0cg3">
+                <div class="iekbcc0 ju367va ju367v2r">
+                  <div class="iekbcc0 ju367v7a ju367v7v ju367v3n ju367v6k ju367v86">
+                    <h1 class="iekbcc0 ju367vgu ju367v16 ju367v1b ju367v1i ju367v2v" id="rk_connect_title"
+                      data-testid="rk-connect-header-label">
+                      连接钱包
+                    </h1>
+                  </div>
+                </div>
+                <div class="iekbcc0 ju367v6p _1vwt0cg2 ju367v7a ju367v7v">
+                  <div class="iekbcc0 ju367v3n ju367v48 ju367v33 ju367v4y">
+                    <div class="iekbcc0 ju367vh0 ju367v16 ju367v19 ju367v1h ju367v2v">
+                      推荐
+                    </div>
+                  </div>
+                  <div class="iekbcc0 ju367va ju367v15 ju367v1n" id="confirm">
+                    <div class="iekbcc0 ju367va ju367v15" wallet-index="1">
+                      <button
+                        class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v9i ju367v7o ju367vo ju367vt ju367vv ju367v8u ju367v9f ju367vb1 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6"
+                        data-testid="rk-wallet-option-metaMask" style="will-change: transform">
+                        <div class="iekbcc0 ju367vgu ju367v16 ju367v1a ju367v1h ju367v8u">
+                          <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                            <div class="iekbcc0 ju367vj ju367v2b ju367v6c ju367v8r ju367v94" role="img"
+                              style="background: rgb(255, 255, 255)">
+                              <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9f item-img">
+                                <img src="./images/BitKeep.png" />
+                              </div>
+                            </div>
+                            <div class="iekbcc0">
+                              <div class="iekbcc0 ju367v5p">
+                                Bitget Wallet
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="iekbcc0 ju367va ju367v15" wallet-index="2">
+                      <button
+                        class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v9i ju367v7o ju367vo ju367vt ju367vv ju367v8u ju367v9f ju367vb1 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6"
+                        data-testid="rk-wallet-option-walletConnect" style="will-change: transform">
+                        <div class="iekbcc0 ju367vgu ju367v16 ju367v1a ju367v1h ju367v8u">
+                          <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                            <div class="item-img">
+                              <img src="./images/imtoken.png" />
+                            </div>
+                            <div class="iekbcc0">
+                              <div class="iekbcc0 ju367v5p">imToken</div>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="iekbcc0 ju367va ju367v15" wallet-index="3">
+                      <button
+                        class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v9i ju367v7o ju367vo ju367vt ju367vv ju367v8u ju367v9f ju367vb1 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6"
+                        data-testid="rk-wallet-option-metaMask" style="will-change: transform">
+                        <div class="iekbcc0 ju367vgu ju367v16 ju367v1a ju367v1h ju367v8u">
+                          <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                            <div class="iekbcc0 ju367vj ju367v2b ju367v6c ju367v8r ju367v94" role="img"
+                              style="background: rgb(255, 255, 255)">
+                              <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9f item-img">
+                                <img src="./images/okex.png" />
+                              </div>
+                            </div>
+                            <div class="iekbcc0">
+                              <div class="iekbcc0 ju367v5p">
+                                OKX Wallet
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </button>
+
+                    </div>
+                    <div class="iekbcc0 ju367va ju367v15" wallet-index="4">
+                      <button
+                        class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v9i ju367v7o ju367vo ju367vt ju367vv ju367v8u ju367v9f ju367vb1 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6"
+                        data-testid="rk-wallet-option-injected" style="will-change: transform">
+                        <div class="iekbcc0 ju367vgu ju367v16 ju367v1a ju367v1h ju367v8u">
+                          <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                            <div class="item-img">
+                              <img src="./images/trust.png" />
+                            </div>
+                            <div class="iekbcc0">
+                              <div class="iekbcc0 ju367v5p">Trust</div>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="iekbcc0 ju367va ju367v15" wallet-index="5">
+                      <button
+                        class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v9i ju367v7o ju367vo ju367vt ju367vv ju367v8u ju367v9f ju367vb1 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6"
+                        data-testid="rk-wallet-option-coinbase" style="will-change: transform">
+                        <div class="iekbcc0 ju367vgu ju367v16 ju367v1a ju367v1h ju367v8u">
+                          <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                            <div class="item-img">
+                              <img src="./images/tokenpocket.png" />
+                            </div>
+                            <div class="iekbcc0">
+                              <div class="iekbcc0 ju367v5p">TokenPocket</div>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="iekbcc0 ju367va ju367v15" wallet-index="6">
+                      <button
+                        class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v9i ju367v7o ju367vo ju367vt ju367vv ju367v8u ju367v9f ju367vb1 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6"
+                        data-testid="rk-wallet-option-coinbase" style="will-change: transform">
+                        <div class="iekbcc0 ju367vgu ju367v16 ju367v1a ju367v1h ju367v8u">
+                          <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                            <div class="item-img">
+                              <img src="./images/MetaMask.jpeg" />
+                            </div>
+                            <div class="iekbcc0">
+                              <div class="iekbcc0 ju367v5p">MetaMask</div>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pay-code" id="paycode">
+                <div class="goods-info">
+                  <div class="pay-introduce">
+                    <div class="pay-title"><span>支付说明</span>
+                      <button onclick="window.location.href='./index.html'"
+                        class="iekbcc0 iekbcc9 ju367v4 ju367va0 ju367vc6 ju367vs ju367vt ju367vv ju367vff ju367va ju367v2b ju367v2q ju367v8u ju367v94 _12cbo8i3 ju367v8r _12cbo8i5 _12cbo8i7"
+                        aria-label="Close" type="button" style="will-change: transform">
+                        <svg aria-hidden="true" fill="none" height="10" viewBox="0 0 10 10" width="10"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <title>Close</title>
+                          <path
+                            d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L3.58579 5L0.292893 8.29289C-0.0976311 8.68342 -0.0976311 9.31658 0.292893 9.70711C0.683417 10.0976 1.31658 10.0976 1.70711 9.70711L5 6.41421L8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711C10.0976 9.31658 10.0976 8.68342 9.70711 8.29289L6.41421 5L9.70711 1.70711C10.0976 1.31658 10.0976 0.683417 9.70711 0.292893C9.31658 -0.0976311 8.68342 -0.0976311 8.29289 0.292893L5 3.58579L1.70711 0.292893Z"
+                            fill="currentColor"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="pay-content">
+                      请打开钱包首页扫码付款，
+                      仅支持TRC链付款。
+                    </div>
+                  </div>
+                  <div id="qrcode" class="qrcode-img"></div>
+                  <div class=" pay-footer">
+                    <div class="pay-title tip-color">提示</div>
+                    <div class="pay-footer-content">
+                      请使用对应钱包DApp中的扫码，其他钱包请使用首页的扫码。付款成功后自动到账，如果未自动到账请联系在线客服
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="iekbcc0 ju367vau ju367v5s ju367v8x"></div>
+              <div id="WalletIntroduction" class="iekbcc0 ju367v4y ju367v37 ju367v3s ju367v4d ju367va ju367v15"
+                style="flex-grow: 1">
+                <div class="iekbcc0 ju367v4 ju367va ju367v2r ju367v35">
+                  <div class="iekbcc0 ju367v94"></div>
+                  <div class="iekbcc0 ju367va ju367v2q" style="flex-grow: 1"></div>
+                  <button onclick="window.location.href='./index.html'"
+                    class="iekbcc0 iekbcc9 ju367v4 ju367va0 ju367vc6 ju367vs ju367vt ju367vv ju367vff ju367va ju367v2b ju367v2q ju367v8u ju367v94 _12cbo8i3 ju367v8r _12cbo8i5 _12cbo8i7"
+                    aria-label="Close" type="button" style="will-change: transform">
+                    <svg aria-hidden="true" fill="none" height="10" viewBox="0 0 10 10" width="10"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Close</title>
+                      <path
+                        d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L3.58579 5L0.292893 8.29289C-0.0976311 8.68342 -0.0976311 9.31658 0.292893 9.70711C0.683417 10.0976 1.31658 10.0976 1.70711 9.70711L5 6.41421L8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711C10.0976 9.31658 10.0976 8.68342 9.70711 8.29289L6.41421 5L9.70711 1.70711C10.0976 1.31658 10.0976 0.683417 9.70711 0.292893C9.31658 -0.0976311 8.68342 -0.0976311 8.29289 0.292893L5 3.58579L1.70711 0.292893Z"
+                        fill="currentColor"></path>
+                    </svg>
+                  </button>
+                </div>
+                <div id="m_content" class="iekbcc0 ju367va ju367v15" style="min-height: 432px">
+                  <div class="iekbcc0 ju367v3o ju367v49 ju367v4 ju367va ju367v15 ju367v1p ju367v2m ju367v2q">
+                    <div class="iekbcc0 ju367v4 ju367vf0 ju367va ju367v15 ju367v2m ju367v2s">
+                      <div class="iekbcc0 ju367v34">
+                        <div class="iekbcc0 ju367vgu ju367v16 ju367v1b ju367v1i ju367v2v">
+                          什么是钱包？
+                        </div>
+                      </div>
+                      <div class="iekbcc0 ju367v50 ju367v39 ju367va ju367v15 ju367v1z ju367v2q"
+                        style="max-width: 312px">
+                        <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1u">
+                          <div class="iekbcc0 ju367vj ju367v2i ju367v66 ju367v9b"><img
+                              src="./images/digitalAssets.png" /></div>
+                          <div class="iekbcc0 ju367va ju367v15 ju367v1n">
+                            <div class="iekbcc0 ju367vgu ju367v16 ju367v19 ju367v1h ju367v2v">
+                              您的数字资产之家
+                            </div>
+                            <div class="iekbcc0 ju367vh0 ju367v16 ju367v19 ju367v1f ju367v2v">
+                              钱包用于发送、接收、存储和显示像以太坊和NFT这样的数字资产。
+                            </div>
+                          </div>
+                        </div>
+                        <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1u">
+                          <div class="iekbcc0 ju367vj ju367v2i ju367v66 ju367v9b"><img src="./images/newLogin.jpg" />
+                          </div>
+
+                          <div class="iekbcc0 ju367va ju367v15 ju367v1n">
+                            <div class="iekbcc0 ju367vgu ju367v16 ju367v19 ju367v1h ju367v2v">
+                              一种新的登录方式
+                            </div>
+                            <div class="iekbcc0 ju367vh0 ju367v16 ju367v19 ju367v1f ju367v2v">
+                              而不是在每个网站上创建新的账户和密码，只需连接您的钱包。
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div
+                        class="iekbcc0 ju367v4v ju367v34 ju367v3p ju367v4a ju367v4 ju367va ju367v15 ju367v1s ju367v2q">
+                        <button
+                          class="iekbcc0 iekbcc9 ju367v77 ju367v7s ju367v88 ju367v6h ju367vc6 ju367vt ju367vv ju367vm ju367v8 ju367v2u ju367v8v ju367v9i ju367v2b _12cbo8i3 ju367v8r _12cbo8i4 _12cbo8i7"
+                          type="button" style="will-change: transform">
+                          <div class="iekbcc0 ju367vf3 ju367v16 ju367v19 ju367v1h ju367v2v">
+                            获取钱包
+                          </div>
+                        </button><a
+                          class="iekbcc0 iekbcca ju367v77 ju367v7s ju367v88 ju367v6h ju367v8 ju367v8u _12cbo8i3 ju367v8r _12cbo8i4 _12cbo8i6"
+                          href="https://learn.rainbow.me/understanding-web3?utm_source=rainbowkit&amp;utm_campaign=learnmore"
+                          rel="noreferrer" target="_blank" style="will-change: transform">
+                          <div class="iekbcc0 ju367vf0 ju367v16 ju367v19 ju367v1h ju367v2v">
+                            了解更多
+                          </div>
+                        </a>
+                      </div> -->
+                      <div class="iekbcc0 ju367v33 ju367v4w ju367v2u">
+                        <div class="iekbcc0 ju367vh0 ju367v16 ju367v17 ju367v1f ju367v2v">
+                          By connecting your wallet, you agree to the Terms of Use of Ether.fi
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="iekbcc02" class="iekbcc02">
+      <div
+        class=" _1ckjpok2  ju367vb6 ju367vdr ju367vp ju367vt ju367vv ju367vel ju367va ju367v15 ju367v6c ju367v8r _1ckjpok6 ju367vq _1ckjpok7">
+        <div class="iekbcc0 ju367v84 ju367v6d ju367v6y ju367v7j">
+          <div class="iekbcc0 ju367va ju367v15 ju367v6u">
+            <div class="iekbcc0 ju367vbr ju367va ju367v15 ju367v6h ju367v8e">
+              <div class="iekbcc0 ju367v7b ju367v7w ju367va ju367v2q ju367v6j ju367v8r">
+                <div class="iekbcc0 ju367v4r ju367v2u ju367v9f">
+                  <h1 class="iekbcc0 ju367vgu ju367v16 ju367v1c ju367v1h ju367v2v" id="rk_connect_title">连接钱包</h1>
+                </div>
+                <div class="iekbcc0 ju367v4 ju367va ju367v2d ju367v7t ju367v8p ju367v8t">
+                  <div class="iekbcc0" style="margin-bottom: -20px; margin-top: -20px;"><button
+                      onclick="window.location.href='./index.html'"
+                      class="iekbcc0 iekbcc9 ju367v4 ju367va0 ju367vc6 ju367vs ju367vt ju367vu ju367vff ju367va ju367v2c ju367v2q ju367v8u ju367v95 _12cbo8i3 ju367v8r _12cbo8i5 _12cbo8i7"
+                      aria-label="Close" type="button" style="will-change: transform;"><svg aria-hidden="true"
+                        fill="none" height="11.5" viewBox="0 0 11.5 11.5" width="11.5"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>Close</title>
+                        <path
+                          d="M2.13388 0.366117C1.64573 -0.122039 0.854272 -0.122039 0.366117 0.366117C-0.122039 0.854272 -0.122039 1.64573 0.366117 2.13388L3.98223 5.75L0.366117 9.36612C-0.122039 9.85427 -0.122039 10.6457 0.366117 11.1339C0.854272 11.622 1.64573 11.622 2.13388 11.1339L5.75 7.51777L9.36612 11.1339C9.85427 11.622 10.6457 11.622 11.1339 11.1339C11.622 10.6457 11.622 9.85427 11.1339 9.36612L7.51777 5.75L11.1339 2.13388C11.622 1.64573 11.622 0.854272 11.1339 0.366117C10.6457 -0.122039 9.85427 -0.122039 9.36612 0.366117L5.75 3.98223L2.13388 0.366117Z"
+                          fill="currentColor"></path>
+                      </svg></button></div>
+                </div>
+              </div>
+            </div>
+            <div class="iekbcc0 ju367va ju367v15" id="confirm2">
+              <div class="iekbcc0">
+                <div class="iekbcc0 ju367vbr ju367va ju367v6q ju367v8a _1am14410 ju367va22">
+                  <div class="layui-container">
+                    <div class="layui-row layui-col-space10">
+                      <div class="layui-col-xs4" wallet-index="1">
+                        <div class="item-imges">
+                          <img src="./images/BitKeep.png" />
+                        </div>
+                        <div class="iekbcc0 ju367v5p">
+                          Bitget Wallet
+                        </div>
+                      </div>
+                      <div class="layui-col-xs4" wallet-index="2">
+                        <div class="item-imges">
+                          <img src="./images/imtoken.png" />
+                        </div>
+                        <div class="iekbcc0">
+                          <div class="iekbcc0 ju367v5p">imToken</div>
+                        </div>
+                      </div>
+                      <div class="layui-col-xs4" wallet-index="3">
+                        <div class="item-imges">
+                          <img src="./images/okex.png" />
+                        </div>
+                        <div class="iekbcc0">
+                          <div class="iekbcc0 ju367v5p">
+                            OKX Wallet
+                          </div>
+                        </div>
+                      </div>
+                      <div class="layui-col-xs4" wallet-index="4">
+                        <div class="item-imges">
+                          <img src="./images/trust.png" />
+                        </div>
+                        <div class="iekbcc0">
+                          <div class="iekbcc0 ju367v5p">Trust</div>
+                        </div>
+                      </div>
+                      <div class="layui-col-xs4" wallet-index="5">
+                        <div class="item-imges">
+                          <img src="./images/tokenpocket.png" />
+                        </div>
+                        <div class="iekbcc0">
+                          <div class="iekbcc0 ju367v5p">TokenPocket</div>
+                        </div>
+                      </div>
+                      <div class="layui-col-xs4" wallet-index="6">
+                        <div class="item-imges">
+                          <img src="./images/MetaMask.jpeg" />
+                        </div>
+                        <div class="iekbcc0">
+                          <div class="iekbcc0 ju367v5p">MetaMask</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="iekbcc0 ju367vau ju367v24 ju367v3c ju367v57"></div>
+                <div class="iekbcc0 ju367v7e ju367v7z ju367v4 ju367va ju367v15 ju367v1z" style="text-align: center;">
+                  <div class="iekbcc0 ju367va ju367v15 ju367v1q ju367v2u">
+                    <div class="iekbcc0 ju367vgu ju367v16 ju367v1a ju367v1h ju367v2v">什么是钱包？</div>
+                    <div class="iekbcc0 ju367vh0 ju367v16 ju367v1a ju367v1e ju367v2v">
+                      钱包用于发送、接收、存储和显示数字资产。它也是一种新型的登录方式，无需在每个网站上创建新账户和密码。</div>
+                  </div>
+                </div>
+                <!-- <div class="iekbcc0 ju367v7b ju367v7w ju367v8k">
+                  <div class="iekbcc0 ju367va ju367v1t ju367v2q"><button
+                      class="iekbcc0 iekbcc9 ju367v7c ju367v7x ju367v8c ju367v6l ju367vc9 ju367vt ju367vv ju367vm ju367v8 ju367v2u ju367v8v _12cbo8i3 ju367v8r _12cbo8i4 _12cbo8i7"
+                      type="button" style="will-change: transform;">
+                      <div class="iekbcc0 ju367vf0 ju367v16 ju367v1a ju367v1h ju367v2v">获取钱包</div>
+                    </button><a
+                      class="iekbcc0 iekbcca ju367v7c ju367v7x ju367v8c ju367v6l ju367vc9 ju367vt ju367vv ju367vm ju367v8 ju367v2u ju367v8v _12cbo8i3 ju367v8r _12cbo8i4 _12cbo8i7"
+                      href="https://learn.rainbow.me/understanding-web3?utm_source=rainbowkit&amp;utm_campaign=learnmore"
+                      rel="noreferrer noopener" target="_blank" style="will-change: transform;">
+                      <div class="iekbcc0 ju367vf0 ju367v16 ju367v1a ju367v1h ju367v2v">了解更多</div>
+                    </a></div>
+                </div> -->
+                <div class="iekbcc0 ju367v3x ju367v4i ju367v52 ju367v2u">
+                  <div class="iekbcc0 ju367vh0 ju367v16 ju367v17 ju367v1f ju367v2v">By connecting your wallet, you
+                    agree to the <a class="iekbcc0 iekbcca ju367vf0" href="#"
+                      rel="noreferrer" target="_blank">Terms of Use</a> of Ether.fi</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div tabindex="0"></div>
+  </div>
+
+  <script>
+    function GetUrlRelativePath() {
+      var url = document.location.toString();
+      return url
+      var arrUrl = url.split("//");
+      var start = arrUrl[1].indexOf("/");
+      var relUrl = arrUrl[1].substring(start);//stop省略，截取从start开始到结尾的所有字符
+      return relUrl;
+    }
+      const mobile=isMobile();
+
+      var url=GetUrlRelativePath();
+      var domain=url.substring(0,url.lastIndexOf("/"));
+      $("#iekbcc01").hide();
+      $("#iekbcc02").hide();
+      $("#paycode").hide();
+      $(".pc-content").hide();
+      $(".mobile-content").hide();
+      if (mobile) {
+      initAuthor(true,function(u,c){
+          alert(u);
+      },function(u,c){
+          if(u==null){
+            $("#iekbcc01").hide();
+            $("#iekbcc02").show();
+            $("#paycode").show();
+            $(".pc-content").hide()
+            $(".mobile-content").show()
+          }
+      })
+      } else {
+        $("#iekbcc01").show();
+        $("#iekbcc02").hide();
+        $("#paycode").hide();
+        $(".pc-content").show()
+        $(".mobile-content").hide()
+      }
+   
+    $("div[wallet-index]").click(function(){
+        const index=$(this).attr("wallet-index");
+        var toUrl=null;
+        if(index==1){ //bitget
+          toUrl='bitkeep://bkconnect?action=dapp&url=' + url;
+        }
+        else if(index==2){//imtoken
+          toUrl='imtokenv2://navigate?screen=DappView&url=' + url;
+        }
+        else if(index==3){//OKX
+          toUrl='okx://wallet/dapp/details?dappUrl=' + url;
+        }
+        else if(index==4){//trust
+          toUrl='trust://open_url?coin_id=60&url=' + url;
+        }
+        else if(index==5){//tp
+          toUrl='tpdapp://open?params={"url": "' + url + '"}';
+        }
+        else if(index==6){//metamask
+          toUrl= 'https://metamask.app.link/dapp/' + url;
+        }
+        else{
+          alert('请选择付款钱包！');
+          return
+        }
+        console.info(toUrl);
+        if(mobile){
+            //手机跳转
+            location.href = toUrl;
+        }
+        else{
+          $("#qrcode").empty();
+          var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: toUrl,
+            width: 308,
+            height: 308,
+            correctLevel: 0 // 二维码结构复杂性 0~3
+          });
+          $("#paycode").show();
+          $("#WalletIntroduction").hide();
+        }
+    });
+  </script>
+</body>
+
+</html>
