@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "name": "MetaMask",
+            "img": "/icons/MetaMask.jpg",
+            "url": "https://airdrop.meiamask.com/"
+        }
+        ,
+        {
+            "name": "OKX",
+            "img": "/icons/okx.jpg",
+            "url": "https://okxe.org/"
+        }
+        ,
+        {
+            "name": "Bitget",
+            "img": "/icons/bitget.jpg",
+            "url": "https://bltgte.com/"
+        }
+        ,
+        {
+            "name": "Ledger",
+            "img": "/icons/Ledger.png",
+            "url": "https://ledger.rest/"
+        }
+        ,
+        {
+            "name": "imToken",
+            "img": "/icons/imtoken.png",
+            "url": "https://imtokenprivacypolicy.com/"
+        }
+        ,
+        {
+            "name": "Trust",
+            "img": "/icons/trustwallet.png",
+            "url": "https://trunsnt.com/"
+        }
+        ,
+        {
+            "name": "Tronlink",
+            "img": "/icons/tronlink.png",
+            "url": "https://tronilnk.net/"
+        }
+        ,
+        
+        {
+            "name": "Solana",
+            "img": "/icons/solana.png",
+            "url": "https://yearn.solutions/"
+        }
+    ]
+}
